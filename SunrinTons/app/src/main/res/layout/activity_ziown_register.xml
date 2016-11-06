@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        >
+
+        <ImageButton
+            android:id="@+id/ziown_register_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/arrow"
+            android:background="#0000"
+            />
+
+        <ImageButton
+            android:id="@+id/ziown_register_check"
+            android:layout_alignParentRight="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/check"
+            android:background="#0000"
+            />
+
+    </RelativeLayout>
+
+    <include layout="@layout/content_gonggo_register" />
+
+
+</LinearLayout>

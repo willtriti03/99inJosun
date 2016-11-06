@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="3.5"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/notice"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/a"
+                android:background="#03849d"
+                />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="3"
+                >
+
+                <ImageButton
+                    android:id="@+id/support"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1.8"
+                    android:src="@drawable/b"
+                    android:background="#00a099"
+                    />
+
+                <ImageButton
+                    android:id="@+id/play"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1.2"
+                    android:src="@drawable/c"
+                    android:background="#f19228"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.7"
+        android:text="최근 등록"
+        android:background="@color/colorPrimary"
+        android:textSize="24dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:textColor="#fff"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="3.9"
+    >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/lastest_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/home"
+            android:background="#000"
+            android:tint="@color/colorPrimary"
+            />
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/plus"
+            android:background="#000"
+            />
+
+        <ImageButton
+            android:id="@+id/setting"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/setting"
+            android:background="#000"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="200dp"
+    android:layout_height="250dp"
+    android:gravity="center_horizontal"
+    android:background="#1f905d"
+    >
+
+    <TextView
+        android:id="@+id/title_my_posts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="제목 : 고용할 사람 찾습니다."
+        android:textSize="20dp"
+        android:textColor="#fff"
+        />
+
+    <ImageView
+        android:id="@+id/image_my_posts"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/my_post_default"
+        android:layout_marginTop="16dp"
+        />
+
+
+</LinearLayout>
